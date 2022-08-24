@@ -73,25 +73,3 @@ function playRound(playerSelection,computerSelection)
 
 
 
-/*
-let player1Score = 0; let computerScore = 0;
-
-for(let i = 0;i < 5;i++)
-{
-    playerSelection = prompt("Type one of the following choices: 'Rock','Paper','Scissors'");
-    let winner = playRound(playerSelection,getComputerChoice());
-    console.log(winner);
-
-    if(winner[4] == 'Y')
-        player1Score++;
-    else
-        computerScore++;
-}
-
-
-if(player1Score > computerScore)
-    console.log("You Won the Game!");
-else
-    console.log("You lost the Game!");
-
-*/
